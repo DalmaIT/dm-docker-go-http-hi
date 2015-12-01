@@ -10,6 +10,10 @@ A docker project runs the http response for `Hello world`
 # Usage
 *You can easily build your own docker image of this app as so:*
 
+## use Makefile
+run `make` and try it!
+
+## Manually
 ```
 # (Build and tag the docker image)
 docker build -t dalmait/go-http-hi .
